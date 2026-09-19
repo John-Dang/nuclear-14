@@ -47,7 +47,6 @@
     layers:
     - state: icon
     - state: equipped-HELMET
-    - state: equipped-HELMET-unshaded
   - type: Clothing
     clothingVisuals:
       head:
