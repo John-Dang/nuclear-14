@@ -11761,3 +11761,28 @@ Entries:
   id: 6454
   time: '2026-09-19T00:28:06.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1949
+- author: qevie
+  changes:
+    - type: Tweak
+      message: >-
+        The Noxa Column's brightest houndmasters have opted to distribute hounds
+        more evenly amongst the legio. Legion hounds for all!
+  id: 6455
+  time: '2026-09-19T01:14:44.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1945
+- author: Vixting
+  changes:
+    - type: Add
+      message: Ported automation from goob / trauma station
+    - type: Add
+      message: Add vault recipe to craft automation stuff
+  id: 6456
+  time: '2026-09-19T01:17:26.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1940
+- author: cythisiax
+  changes:
+    - type: Tweak
+      message: Head Paladin gets their cool Bonneville/509th recolor back.
+  id: 6457
+  time: '2026-09-19T01:28:36.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1950
