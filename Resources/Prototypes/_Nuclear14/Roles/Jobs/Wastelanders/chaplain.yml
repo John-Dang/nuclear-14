@@ -31,7 +31,7 @@
   id: WastelandChaplainGear
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitFollowers
-    ears: MisfitsClothingHeadsetWastelandScrap
+    ears: MisfitsClothingHeadsetTown
     back: N14ClothingBackpackTrekker # Forge-Change
     shoes: N14ClothingBootsBlack
     id: N14IDPassportWasteChaplain
