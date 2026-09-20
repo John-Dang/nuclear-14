@@ -11828,3 +11828,12 @@ Entries:
   id: 6461
   time: '2026-09-19T23:26:20.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1917
+- author: Marabout2
+  changes:
+    - type: Tweak
+      message: '[NCR] Tweaked the loadout options to display in the right category'
+    - type: Fix
+      message: '[NCR] The NCR LTCOL finally get his job slot.'
+  id: 6462
+  time: '2026-09-20T12:26:43.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1953
