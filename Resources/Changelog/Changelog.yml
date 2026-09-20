@@ -11837,3 +11837,10 @@ Entries:
   id: 6462
   time: '2026-09-20T12:26:43.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1953
+- author: Bradysgaming
+  changes:
+    - type: Tweak
+      message: Dogs can no longer pick up or be given weapons.
+  id: 6463
+  time: '2026-09-20T12:26:56.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1958
