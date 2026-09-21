@@ -296,7 +296,7 @@
   suffix: TOMBSTONE
   components:
   - type: PresetIdCard
-    job: BoSTombstone
+    job: RetiredHTInstructor
 
 - type: entity
   parent: N14IDBrotherhoodOfSteelHolotagBase
