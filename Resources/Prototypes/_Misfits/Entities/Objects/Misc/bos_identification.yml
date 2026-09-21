@@ -94,8 +94,6 @@
     - IdCardBrotherhood
   - type: ClothingAddFaction
     faction: BrotherhoodOfSteel
-  - type: StaticPrice
-    price: 100
 
 - type: entity
   parent: N14IDBrotherhoodHolotag
@@ -106,8 +104,6 @@
   components:
   - type: PresetIdCard
     job: BoSMidSquire
-  - type: StaticPrice
-    price: 50
 
 - type: entity
   parent: N14IDBrotherhoodHolotag
@@ -118,8 +114,6 @@
   components:
   - type: PresetIdCard
     job: BoSOffDuty
-  - type: StaticPrice
-    price: 20
 
 - type: entity
   parent: N14IDBrotherhoodHolotag
@@ -130,8 +124,6 @@
   components:
   - type: PresetIdCard
     job: BoSMidKnight
-  - type: StaticPrice
-    price: 150
 
 - type: entity
   parent: N14IDBrotherhoodHolotag
@@ -142,8 +134,6 @@
   components:
   - type: PresetIdCard
     job: BoSMidPaladin
-  - type: StaticPrice
-    price: 200
 
 - type: entity
   parent: N14IDBrotherhoodHolotag
@@ -154,8 +144,6 @@
   components:
   - type: PresetIdCard
     job: BoSMidPaladinCommander
-  - type: StaticPrice
-    price: 400
 
 ##MARK: Brotherhood Unified Live Jobs
 - type: entity
@@ -176,8 +164,6 @@
     - IdCardBrotherhood
   - type: ClothingAddFaction
     faction: BrotherhoodOfSteel
-  - type: StaticPrice
-    price: 20
 
 - type: entity
   parent: N14IDBrotherhoodOfSteelHolotagBase
@@ -188,8 +174,6 @@
   components:
   - type: PresetIdCard
     job: BoSInitiate  #Misfits Change /Tweak/: Updated to new consolidated BoS Initiate job
-  - type: StaticPrice
-    price: 20
 
 - type: entity
   parent: N14IDBrotherhoodOfSteelHolotagBase
@@ -200,8 +184,6 @@
   components:
   - type: PresetIdCard
     job: BoSMidSquire
-  - type: StaticPrice
-    price: 50
 
 - type: entity
   parent: N14IDBrotherhoodOfSteelHolotagBase
@@ -212,8 +194,6 @@
   components:
   - type: PresetIdCard
     job: BoSScribe  #Misfits Change /Tweak/: Updated to new consolidated BoS Scribe job
-  - type: StaticPrice
-    price: 75
 
 - type: entity
   parent: N14IDBrotherhoodOfSteelHolotagBase
@@ -224,8 +204,6 @@
   components:
   - type: PresetIdCard
     job: BoSMidScribe
-  - type: StaticPrice
-    price: 100
 
 - type: entity
   parent: N14IDBrotherhoodOfSteelHolotagBase
@@ -236,8 +214,6 @@
   components:
   - type: PresetIdCard
     job: BoSWestScribe
-  - type: StaticPrice
-    price: 200
 
 - type: entity
   parent: N14IDBrotherhoodOfSteelHolotagBase
@@ -248,8 +224,6 @@
   components:
   - type: PresetIdCard
     job: BoSKnight  #Misfits Change /Tweak/: Updated to new consolidated BoS Knight job
-  - type: StaticPrice
-    price: 125
 
 - type: entity
   parent: N14IDBrotherhoodOfSteelHolotagBase
@@ -260,8 +234,6 @@
   components:
   - type: PresetIdCard
     job: BoSMidKnight
-  - type: StaticPrice
-    price: 150
 
 - type: entity
   parent: N14IDBrotherhoodOfSteelHolotagBase
@@ -272,8 +244,6 @@
   components:
   - type: PresetIdCard
     job: BoSHeadKnight  #Misfits Change /Tweak/: Updated to new consolidated BoS Head Knight job
-  - type: StaticPrice
-    price: 250
 
 - type: entity
   parent: N14IDBrotherhoodOfSteelHolotagBase
@@ -284,8 +254,6 @@
   components:
   - type: PresetIdCard
     job: BoSPaladin  #Misfits Change /Tweak/: Updated to new consolidated BoS Paladin job
-  - type: StaticPrice
-    price: 150
 
 - type: entity
   parent: N14IDBrotherhoodOfSteelHolotagBase
@@ -296,8 +264,6 @@
   components:
   - type: PresetIdCard
     job: BoSMidPaladin
-  - type: StaticPrice
-    price: 200
 
 - type: entity
   parent: N14IDBrotherhoodOfSteelHolotagBase
@@ -308,11 +274,9 @@
   components:
   - type: PresetIdCard
     job: BoSMidPaladinCommander
-  - type: StaticPrice
-    price: 400
 
 # #Cythisiax Commented - Paladin Commander holotag no longer used: the Brotherhood Deserter
-# role (BoSPaladinCommander) now spawns with NCR prisoner dogtags instead of BoS holotags.
+# retired HT Instructor slot used NCR prisoner dogtags instead of BoS holotags.
 #- type: entity
 #  parent: N14IDBrotherhoodOfSteelHolotagBase
 #  id: N14IDBrotherhoodOfSteelHolotagPaladinCommander
@@ -321,20 +285,7 @@
 #  suffix: Paladin Commander
 #  components:
 #  - type: PresetIdCard
-#    job: BoSPaladinCommander
-
-# #Cythisiax Added - TOMBSTONE personal-whitelist holotag.
-- type: entity
-  parent: N14IDBrotherhoodOfSteelHolotagBase
-  id: N14IDBrotherhoodOfSteelHolotagTombstone
-  name: TOMBSTONE holotags
-  description: Issued to the user of a suit of T-1F 'Tombstone' Power Armor, these holotags are a rarity. They would serve as great bragging rights to any local faction as a bloody trophy.
-  suffix: TOMBSTONE
-  components:
-  - type: PresetIdCard
-    job: RetiredHTInstructor
-  - type: StaticPrice
-    price: 300
+#    job: RetiredHTInstructor
 
 - type: entity
   parent: N14IDBrotherhoodOfSteelHolotagBase
@@ -345,8 +296,17 @@
   components:
   - type: PresetIdCard
     job: BoSWestElderCommander
-  - type: StaticPrice
-    price: 1000
+
+# #Cythisiax Added - HONOR GUARD personal-whitelist holotag.
+- type: entity
+  parent: N14IDBrotherhoodOfSteelHolotagBase
+  id: N14IDBrotherhoodOfSteelHolotagHonorGuard
+  name: honor guard's holotags
+  description: An ID holotag worn by an Honor Guard of the Brotherhood of Steel.
+  suffix: Honor Guard
+  components:
+  - type: PresetIdCard
+    job: BoSHonorGuard
 
 ##MARK: NCR Specialist Dogtag # #Misfits Tweak - renamed from WS/Corporal
 - type: entity
@@ -361,8 +321,6 @@
     state: ncrdogtag
   - type: PresetIdCard
     job: NCRWS
-  - type: StaticPrice
-    price: 100
 
 #Misfits Add: Legacy Washington holotag ID compatibility for existing map entities.
 - type: entity
@@ -371,5 +329,3 @@
   name: initiate's holotags
   description: Issued to fresh recruits of the Washington Brotherhood, you have a long way to go before you are feared just yet.
   suffix: LegacyWashington
-- type: StaticPrice
-  price: 20

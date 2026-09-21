@@ -88,6 +88,7 @@
 - type: startingGear
   id: BoSPaladinGear
   equipment:
+    wallet: N14Wallet
     jumpsuit: N14ClothingUniformBosRecon
     back: N14ClothingBackpackMilitary
     shoes: N14ClothingBootsLeatherFilled
@@ -101,6 +102,7 @@
   storage:
     back:
     - N14BoxPlasticFilledMilitary
+    - GrenadeShrapnel # #Misfits Add - faction council Paladin ordnance
 
 - type: playTimeTracker
   id: BoSPaladin
