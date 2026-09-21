@@ -9,6 +9,8 @@
   components:
   - type: PresetIdCard
     job: NCRSoldier
+  - type: StaticPrice
+    price: 40
 
 - type: entity
   parent: N14IDNCRDogtag
@@ -19,6 +21,8 @@
   components:
   - type: PresetIdCard
     job: NCRPrivateFirstClass
+  - type: StaticPrice
+    price: 45
 
 - type: entity
   parent: N14IDNCRDogtagNCO
@@ -29,6 +33,8 @@
   components:
   - type: PresetIdCard
     job: NCRStaffSergeant
+  - type: StaticPrice
+    price: 60
 
 - type: entity
   parent: N14IDNCRDogtagNCO
@@ -39,6 +45,8 @@
   components:
   - type: PresetIdCard
     job: NCRFirstSergeant
+  - type: StaticPrice
+    price: 70
 
 - type: entity
   parent: N14IDNCRDogtagNCO
@@ -49,6 +57,8 @@
   components:
   - type: PresetIdCard
     job: NCRMPinvestigator
+  - type: StaticPrice
+    price: 80
 
 - type: entity
   parent: N14IDNCRDogtagDoctor
@@ -59,6 +69,8 @@
   components:
   - type: PresetIdCard
     job: NCRDoctor
+  - type: StaticPrice
+    price: 50
 
 - type: entity
   parent: N14IDNCRDogtagOfficer
@@ -69,6 +81,8 @@
   components:
   - type: PresetIdCard
     job: NCRCommander
+  - type: StaticPrice
+    price: 100
 
 - type: entity
   parent: N14IDNCRDogtagCaptain
@@ -79,6 +93,8 @@
   components:
   - type: PresetIdCard
     job: NCRMajor
+  - type: StaticPrice
+    price: 200
 
 - type: entity
   parent: N14IDNCRDogtagCaptain
@@ -89,6 +105,8 @@
   components:
   - type: PresetIdCard
     job: NCRProvost
+  - type: StaticPrice
+    price: 100
 
 - type: entity
   parent: N14IDNCRDogtagNCO
@@ -99,6 +117,8 @@
   components:
   - type: PresetIdCard
     job: NCRMilitaryPoliceRecruit
+  - type: StaticPrice
+    price: 50
 
 - type: entity
   parent: N14IDNCRDogtagNCO
@@ -109,6 +129,8 @@
   components:
   - type: PresetIdCard
     job: NCRMilitaryPoliceSergeant
+  - type: StaticPrice
+    price: 100
 
 - type: entity
   parent: N14IDNCRDogtagNCO
@@ -119,6 +141,8 @@
   components:
   - type: PresetIdCard
     job: NCRMilitaryPoliceCaptain
+  - type: StaticPrice
+    price: 150
 
 - type: entity
   parent: N14IDNCRDogtagNCO
@@ -129,6 +153,8 @@
   components:
   - type: PresetIdCard
     job: NCRRO
+  - type: StaticPrice
+    price: 100
 
 #Misfits Add - Prisoner ID dogtag: NCR prisoners had no ID slot item, so they never got a
 #station general record and were missing from the crew manifest. This fixes that.
@@ -141,6 +167,8 @@
   components:
   - type: PresetIdCard
     job: NCRPrisoner
+  - type: StaticPrice
+    price: 20
 
 - type: entity
   parent: N14IDPassportPhoto
@@ -154,6 +182,8 @@
     state: passport
   - type: PresetIdCard
     job: NCRCitizen
+  - type: StaticPrice
+    price: 20
 
 - type: entity
   parent: N14IDPassportPhoto
@@ -167,6 +197,8 @@
     state: passport
   - type: PresetIdCard
     job: NCRTrader
+  - type: StaticPrice
+    price: 30
 
 #Misfits Add - NCR Office of Science and Industry (OSI) rank dogtags. Every OSI billet
 #carries an id-slot dogtag so members appear on the crew manifest like other NCR jobs.
@@ -179,6 +211,8 @@
   components:
   - type: PresetIdCard
     job: OSIChiefScientist
+  - type: StaticPrice
+    price: 40
 
 - type: entity
   parent: N14IDNCRDogtag
@@ -189,6 +223,8 @@
   components:
   - type: PresetIdCard
     job: OSIScientist
+  - type: StaticPrice
+    price: 30
 
 - type: entity
   parent: N14IDNCRDogtag
@@ -199,6 +235,8 @@
   components:
   - type: PresetIdCard
     job: OSIAssistant
+  - type: StaticPrice
+    price: 20
 
 - type: entity
   parent: N14IDNCRDogtagOfficer
@@ -209,3 +247,5 @@
   components:
   - type: PresetIdCard
     job: OSIAgent
+  - type: StaticPrice
+    price: 40

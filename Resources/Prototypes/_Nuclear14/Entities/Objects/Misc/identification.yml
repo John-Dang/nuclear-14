@@ -22,6 +22,8 @@
   - type: Tag
     tags:
     - DoorBumpOpener
+  - type: StaticPrice
+  price: 20
 
 #MARK: Vault
 - type: entity
@@ -37,6 +39,8 @@
     - state: keycard_vault
   - type: PresetIdCard
     job: VaultDweller
+  - type: StaticPrice
+    price: 30
   - type: Tag
     tags:
     - IdCardVault
@@ -52,6 +56,8 @@
   components:
   - type: PresetIdCard
     job: VaultEngineer
+  - type: StaticPrice
+    price: 45
 
 - type: entity
   parent: N14IDCardVault
@@ -61,6 +67,8 @@
   components:
   - type: PresetIdCard
     job: VaultSecurity
+  - type: StaticPrice
+    price: 60
 
 - type: entity
   parent: N14IDCardVault
@@ -70,6 +78,8 @@
   components:
   - type: PresetIdCard
     job: VaultDoctor
+  - type: StaticPrice
+    price: 40
 
 - type: entity
   parent: N14IDCardVault
@@ -79,6 +89,8 @@
   components:
   - type: PresetIdCard
     job: Overseer
+  - type: StaticPrice
+    price: 80
 
 - type: entity
   parent: N14IDCardVault
@@ -88,6 +100,8 @@
   components:
   - type: PresetIdCard
     job: VaultCargoSpecialist
+  - type: StaticPrice
+    price: 40
 
 - type: entity
   parent: N14IDCardVault
@@ -97,6 +111,8 @@
   components:
   - type: PresetIdCard
     job: VaultCourier
+  - type: StaticPrice
+    price: 20
 
 - type: entity
   parent: N14IDCardVault
@@ -106,6 +122,8 @@
   components:
   - type: PresetIdCard
     job: VaultSalvageSpecialist
+  - type: StaticPrice
+    price: 40
 
 #MARK: Passports
 - type: entity
@@ -120,16 +138,20 @@
     scale: 0.7, 0.7
   - type: Clothing
     sprite: _Nuclear14/Objects/Misc/identification.rsi
+  - type: StaticPrice
+    price: 10
 
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDPassport
   name: passport
-  description: An old pre-war passport that's been scrubbed clean of its old print, stamped with some non-local settlement's seal and used by wastelanders as personal ID.
+  description: An old pre-war passport that's been scrubbed clean of its old print, stamped with some frontier settlement's seal and used by wastelanders as personal ID.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
     state: passport
+  - type: StaticPrice
+    price: 15
 
 #- type: entity
 #  parent: N14IDPassport
@@ -169,6 +191,8 @@
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
     state: passport_photo
+  - type: StaticPrice
+    price: 20
 
 - type: entity
   parent: N14IDPassportBlank
@@ -179,6 +203,8 @@
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
     state: passport_presidential
+  - type: StaticPrice
+    price: 30
 
 - type: entity
   parent: N14IDPassportBlank
@@ -193,6 +219,8 @@
     tags:
     - FotA
     - FotADoctor
+  - type: StaticPrice
+    price: 20
 
 
 # #Misfits Change - BoS Midwest holotags commented out.
@@ -331,6 +359,8 @@
   - type: Tag
     tags:
     - IdCardEnclave
+  - type: StaticPrice
+    price: 200
 
 - type: entity
   parent: N14IDPassportBlank
@@ -350,6 +380,8 @@
   - type: Tag
     tags:
     - IdCardEnclave
+  - type: StaticPrice
+    price: 300
   # - type: PresetIdCard
   #   job: EnclaveOfficer
 
@@ -371,6 +403,8 @@
   - type: Tag
     tags:
     - IdCardEnclave
+  - type: StaticPrice
+    price: 150
   # - type: PresetIdCard
   #   job: EnclaveScientist
 
@@ -395,6 +429,8 @@
     - IdCardNCR  # #Misfits Change - enables NCR shared map in Pip-Boy; all NCR dogtags inherit this via parent
   - type: ClothingAddFaction
     faction: NCR
+  - type: StaticPrice
+    price: 30
 
 - type: entity
   parent: N14IDNCRDogtag
@@ -408,6 +444,8 @@
     state: ncrdogtag
   - type: PresetIdCard
     job: NCRMedic
+  - type: StaticPrice
+    price: 50
 
 #Misfits Change - Start - commented out removed NCR job dogtag
 #- type: entity
@@ -436,6 +474,8 @@
     state: ncrdogtag
   - type: PresetIdCard
     job: NCREngineer
+  - type: StaticPrice
+    price: 50
 
 - type: entity
   parent: N14IDNCRDogtag
@@ -449,6 +489,8 @@
     state: ncrdogtag
   - type: PresetIdCard
     job: NCRNCO
+  - type: StaticPrice
+    price: 65
 
 - type: entity
   parent: N14IDNCRDogtag
@@ -462,6 +504,8 @@
     state: ncrdogtag
   - type: PresetIdCard
     job: NCRExecutiveOfficer
+  - type: StaticPrice
+    price: 100
 
 #MARK: Desert Rangers
 - type: entity
@@ -484,6 +528,8 @@
     tags:
     - IdCardNCR
     - IdCardNCRRanger
+  - type: StaticPrice
+    price: 45
 
 - type: entity
   parent: N14IDBadgeNCRDesertRangerRecruit
@@ -496,6 +542,8 @@
     state: ranger
   - type: PresetIdCard
     job: NCRFieldRanger #Misfits Change - was NCRRanger
+  - type: StaticPrice
+    price: 60
 
 - type: entity
   parent: N14IDBadgeNCRDesertRangerRecruit
@@ -508,6 +556,8 @@
     state: ranger_elite
   - type: PresetIdCard
     job: NCRVeteranRanger #Misfits Change - was NCRRangerVeteran
+  - type: StaticPrice
+    price: 100
 
 - type: entity
   parent: N14IDBadgeNCRDesertRangerRecruit
@@ -520,6 +570,8 @@
     state: ranger_chief
   - type: PresetIdCard
     job: NCRVeteranRanger #Misfits Change - was NCRRangerVeteran
+  - type: StaticPrice
+    price: 200
 
 #MARK: NCR Rangers
 - type: entity
@@ -527,12 +579,16 @@
   id: N14IDBadgeNCRRanger
   description: A badge that marks you as a particularly capable piece of equipment in the endless war that is wasteland law enforcement.
   suffix: NCR
+- type: StaticPrice
+  price: 60
 
 - type: entity
   parent: N14IDBadgeNCRDesertRangerElite
   id: N14IDBadgeNCRRangerElite
   description: A badge that marks you as an unquestioning and loyal piece of government property, ready to do exactly as the president commands.
   suffix: NCR
+- type: StaticPrice
+  price: 100
 
 #MARK: Townsfolk
 - type: entity
@@ -545,6 +601,8 @@
     faction: Townsfolk
   - type: PresetIdCard # Forge-Change
     job: Townsperson # Forge-Change
+  - type: StaticPrice
+    price: 20
 
 - type: entity
   parent: N14IDPassportTownsfolk
@@ -557,6 +615,8 @@
     state: passport_presidential
   - type: PresetIdCard
     job: TownShopkeeper
+  - type: StaticPrice
+    price: 30
 
 - type: entity # Forge-Add-Start
   parent: N14IDPassportTownsfolk
@@ -569,6 +629,8 @@
     state: passport_presidential
   - type: PresetIdCard
     job: TownShopkeeperHelper # Forge-Add-End
+  - type: StaticPrice
+    price: 20
 
 - type: entity
   parent: N14IDPassportTownsfolk
@@ -581,6 +643,8 @@
     state: passport_presidential
   - type: PresetIdCard
     job: TownMechanic
+  - type: StaticPrice
+    price: 30
 
 - type: entity
   parent: N14IDDoctor
@@ -595,6 +659,8 @@
     job: TownDoctor
   - type: ClothingAddFaction
     faction: Townsfolk
+  - type: StaticPrice
+    price: 30
 
 - type: entity
   parent: N14IDPassportTownsfolk
@@ -609,6 +675,8 @@
     job: WastelandReporter
   - type: ClothingAddFaction
     faction: Townsfolk
+  - type: StaticPrice
+    price: 40
 
 - type: entity
   parent: N14IDPassportTownsfolk
@@ -623,6 +691,8 @@
     job: WastelandBartender
   - type: ClothingAddFaction
     faction: Townsfolk
+  - type: StaticPrice
+    price: 25
 
 - type: entity
   parent: N14IDPassportTownsfolk
@@ -635,6 +705,8 @@
     state: deputy
   - type: PresetIdCard
     job: TownDeputy
+  - type: StaticPrice
+    price: 35
 
 - type: entity
   parent: N14IDPassportTownsfolk
@@ -647,6 +719,8 @@
     state: sheriff
   - type: PresetIdCard
     job: TownSheriff
+  - type: StaticPrice
+    price: 40
 
 - type: entity
   parent: N14IDPassportTownsfolk
@@ -659,6 +733,8 @@
     state: mayor
   - type: PresetIdCard
     job: TownMayor
+  - type: StaticPrice
+    price: 50
 
 - type: entity
   parent: N14IDPassportPhoto
@@ -673,6 +749,8 @@
     job: WastelandChaplain
   - type: ClothingAddFaction # Forge-Add
     faction: Townsfolk
+  - type: StaticPrice
+    price: 20
 
 # Wastelanders
 - type: entity
@@ -686,6 +764,8 @@
     state: passport
   - type: PresetIdCard
     job: WastelandFarmer
+  - type: StaticPrice
+    price: 30
 
 #MARK: Raiders / Tribes
 - type: entity
@@ -706,6 +786,8 @@
     - DoorBumpOpener
   - type: ClothingAddFaction
     faction: Tribal
+  - type: StaticPrice
+    price: 20
 
 - type: entity
   parent: N14IDPassportBlank
@@ -725,6 +807,8 @@
     - DoorBumpOpener
   - type: ClothingAddFaction
     faction: Tribal
+  - type: StaticPrice
+    price: 10
 
 - type: entity
   parent: N14IDPassportBlank
@@ -744,12 +828,14 @@
     - DoorBumpOpener
   - type: ClothingAddFaction
     faction: Tribal
+  - type: StaticPrice
+    price: 10
 
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDTribeBossPendant
   name: elder pendant
-  description: This talisman marks an elder of the local village, one that leads the tribe in all matters. Each of the rifle rounds is engraved with a previous elder's name.
+  description: This talisman marks an elder of the local village, one that guides the tribe in all matters. Each of the rifle rounds is engraved with a previous elder's name.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -763,6 +849,8 @@
     - DoorBumpOpener
   - type: ClothingAddFaction
     faction: Tribal
+  - type: StaticPrice
+    price: 35
 
 # Followers
 - type: entity
@@ -774,6 +862,8 @@
   - type: Tag
     tags:
     - IdCardFollowers
+  - type: StaticPrice
+    price: 20
 
 - type: entity
   parent: N14IDDoctor
@@ -787,6 +877,8 @@
   - type: Access
     tags:
     - FotA
+  - type: StaticPrice
+    price: 10
 
 - type: entity
   parent: N14IDDoctor
@@ -801,6 +893,8 @@
     tags:
     - FotA
     - FotADoctor
+  - type: StaticPrice
+    price: 20
 
 - type: entity
   parent: N14IDDoctor
@@ -814,6 +908,8 @@
   - type: Access
     tags:
     - FotA
+  - type: StaticPrice
+    price: 25
 
 - type: entity
   parent: N14IDDoctor
@@ -829,6 +925,8 @@
     - FotA
     - FotADoctor
     - FotAHead
+  - type: StaticPrice
+    price: 40
 
 #MARK: Keys
 

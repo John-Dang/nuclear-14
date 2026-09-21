@@ -17,6 +17,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 1000
 
 - type: entity
   parent: N14IDPassportBlank
@@ -36,6 +38,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 30
 
 - type: entity
   parent: N14IDPassportBlank
@@ -55,6 +59,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 20
 
 - type: entity
   parent: N14IDPassportBlank
@@ -74,6 +80,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 30
 
 - type: entity
   parent: N14IDPassportBlank
@@ -93,6 +101,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 20
 
 - type: entity
   parent: N14IDPassportBlank
@@ -112,6 +122,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 35
 
 #Misfits Change /Add/: Recruit-tier Legion medals so combat roles no longer use sign IDs.
 - type: entity
@@ -132,6 +144,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 30
 
 - type: entity
   parent: N14IDPassportBlank
@@ -151,6 +165,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 30
 
 - type: entity
   parent: N14IDPassportBlank
@@ -170,6 +186,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 40
 
 #Misfits Change /Add/: Auxilia badge.
 - type: entity
@@ -190,6 +208,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 30
 
 - type: entity
   parent: N14IDPassportBlank
@@ -209,6 +229,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 100
 
 #Misfits Change /Add/: Legion Slave sign so the role carries the same legion badge style with its own access data.
 - type: entity
@@ -229,6 +251,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 10
 
 - type: entity
   parent: N14IDPassportBlank
@@ -248,6 +272,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 50
 
 - type: entity
   parent: N14IDPassportBlank
@@ -267,6 +293,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 40
 
 - type: entity
   parent: N14IDPassportBlank
@@ -286,6 +314,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 80
 
 - type: entity
   parent: N14IDPassportBlank
@@ -305,6 +335,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 80
 
 - type: entity
   parent: N14IDPassportBlank
@@ -324,6 +356,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 60
 
 - type: entity
   parent: N14IDPassportBlank
@@ -343,6 +377,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 100
 
 - type: entity
   parent: N14IDPassportBlank
@@ -362,6 +398,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 200
 
 - type: entity
   parent: N14IDPassportBlank
@@ -381,6 +419,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 125
 
 - type: entity
   parent: N14IDPassportBlank
@@ -400,6 +440,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 200
 
 - type: entity
   parent: N14IDPassportBlank
@@ -419,6 +461,8 @@
   - type: Tag
     tags:
     - IdCardLegion
+  - type: StaticPrice
+    price: 250
 
 ### Frumentaria
 
@@ -450,6 +494,8 @@
     fullNameLocId: n14-id-dogtag-full-name
   - type: PresetIdCard
     job: NCRSoldier
+  - type: StaticPrice
+    price: 35
 
 - type: entity
   parent: [ N14IDPassportBlank, AgentPreset ]
@@ -466,6 +512,8 @@
     fullNameLocId: n14-id-holotag-full-name
   - type: PresetIdCard
     job: BoSMidSquire
+  - type: StaticPrice
+    price: 35
 
 #Misfits Change /Comment-out/: Washington BoS agent holotag removed — job no longer exists.
 #- type: entity
@@ -600,6 +648,8 @@
     - IdCardBrotherhood
   - type: ClothingAddFaction
     faction: BrotherhoodOfSteel
+  - type: StaticPrice
+    price: 200
 
 - type: entity
   parent: N14IDBrotherhoodWestHolotag
@@ -610,6 +660,8 @@
   components:
   - type: PresetIdCard
     job: BoSMidSquire
+  - type: StaticPrice
+    price: 50
 
 - type: entity
   parent: N14IDBrotherhoodWestHolotag
@@ -620,6 +672,8 @@
   components:
   - type: PresetIdCard
     job: BoSMidKnight
+  - type: StaticPrice
+    price: 150
 
 - type: entity
   parent: N14IDBrotherhoodWestHolotag
@@ -630,6 +684,8 @@
   components:
   - type: PresetIdCard
     job: BoSMidPaladin
+  - type: StaticPrice
+    price: 300
 
 - type: entity
   parent: N14IDBrotherhoodWestHolotag
@@ -640,3 +696,5 @@
   components:
   - type: PresetIdCard
     job: BoSWestElderCommander
+  - type: StaticPrice
+    price: 1000

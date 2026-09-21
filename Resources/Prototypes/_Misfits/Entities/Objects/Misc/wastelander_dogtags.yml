@@ -24,6 +24,8 @@
   - type: StationRecordKeyStorage
   - type: PresetIdCard
     job: Wastelander
+  - type: StaticPrice
+    price: 20
   - type: Tag
     tags:
     - IdCardWastelander
