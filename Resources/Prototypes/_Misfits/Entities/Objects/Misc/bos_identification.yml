@@ -292,7 +292,7 @@
   parent: N14IDBrotherhoodOfSteelHolotagBase
   id: N14IDBrotherhoodOfSteelHolotagTombstone
   name: TOMBSTONE holotags
-  description: An ID holotag worn by the wearer of the T-1F 'Tombstone' power armor.
+  description: Issued to the user of a suit of T-1F 'Tombstone' Power Armor, these holotags are a rarity. They would serve as great bragging rights to any local faction as a bloody trophy.
   suffix: TOMBSTONE
   components:
   - type: PresetIdCard
@@ -302,7 +302,7 @@
   parent: N14IDBrotherhoodOfSteelHolotagBase
   id: N14IDBrotherhoodOfSteelHolotagElder
   name: elder's holotags
-  description: An ID holotag worn by the Elder of the Brotherhood of Steel.
+  description: The holotags of an elder of the Brotherhood, issued only when a new chapter is founded, or a casualty must be replaced. These belonged to someone before you, can you live up to their glory?
   suffix: Elder
   components:
   - type: PresetIdCard
@@ -313,7 +313,7 @@
   parent: N14IDNCRDogtag
   id: N14IDNCRDogtagWS
   name: specialist's dogtags
-  description: An ID dogtag worn by NCR specialists.
+  description: These dogtags are proof you know what you're doing, so don't expect to take it easy anytime soon.
   suffix: Specialist
   components:
   - type: Sprite
@@ -327,4 +327,5 @@
   parent: N14IDBrotherhoodOfSteelHolotagInitiate
   id: N14IDBrotherhoodWashingtonHolotagInitiate
   name: initiate's holotags
+  description: Issued to fresh recruits of the Washington Brotherhood, you have a long way to go before you are feared just yet.
   suffix: LegacyWashington
