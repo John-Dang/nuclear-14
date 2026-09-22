@@ -79,7 +79,7 @@
   parent: N14IDPassportBlank
   id: N14IDLegionaryBadgeRecruit
   name: distinctive sign
-  description: "This freshly minted medallion marks you as property of the Legion, a servant who shall enforce Caesar's will at the cost of his own life."
+  description: "This freshly minted medallion marks you as property of the Legion, a soldier who shall enforce Caesar's will at the cost of his own life."
   components:
   - type: Sprite
     sprite: Corvax/Objects/Misc/identification.rsi
@@ -98,7 +98,7 @@
   parent: N14IDPassportBlank
   id: N14IDLegionaryMedalSilver
   name: legion legionnaire medallion
-  description: "This dull medallion marks you as property of the Legion, a loyal servant who will strike down the enemies of Caesar without question or thought."
+  description: "This dull medallion marks you as property of the Legion, a loyal soldier who will strike down the enemies of Caesar without question or thought."
   components:
   - type: Sprite
     sprite: Corvax/Objects/Misc/identification.rsi
@@ -118,7 +118,7 @@
   parent: N14IDPassportBlank
   id: N14IDLegionaryMedalRecruit
   name: legion recruit medallion
-  description: "This freshly minted medallion marks you as property of the Legion, a new servant who shall enforce Caesar's will at the cost of his own life."
+  description: "This freshly minted medallion marks you as property of the Legion, a new soldier who shall enforce Caesar's will at the cost of his own life."
   components:
   - type: Sprite
     sprite: Corvax/Objects/Misc/identification.rsi
@@ -137,7 +137,7 @@
   parent: N14IDPassportBlank
   id: N14IDLegionaryMedalLegionnaireRecruit
   name: legion legionnaire recruit medallion
-  description: "This freshly minted medallion marks you as property of the Legion, a new servant who shall enforce Caesar's will at the cost of his own life."
+  description: "This freshly minted medallion marks you as property of the Legion, a new soldier who shall enforce Caesar's will at the cost of his own life."
   components:
   - type: Sprite
     sprite: Corvax/Objects/Misc/identification.rsi
@@ -156,7 +156,7 @@
   parent: N14IDPassportBlank
   id: N14IDLegionaryMedalHoundmaster
   name: legion houndmaster medallion
-  description: "This scratched up medallion marks you as property of the Legion, a valuable servant who will raise loyal and strong hounds to brawl and die in greater glory than the men fighting alongside them."
+  description: "This scratched up medallion marks you as property of the Legion, a valuable soldier who will raise loyal and strong hounds to brawl and die in greater glory than the men fighting alongside them."
   components:
   - type: Sprite
     sprite: Corvax/Objects/Misc/identification.rsi
@@ -195,7 +195,7 @@
   parent: N14IDPassportBlank
   id: N14IDLegionaryBadgePriestessOfMars
   name: distinctive sign
-  description: "The intricate carvings of this amulet mark you as a Priestess of Mars, a free woman who is entrusted to divine and interpret the will of Mars that will guide the Legion to victory."
+  description: "The intricate carvings of this amulet mark you as a Priestess of Mars, a woman bound to Mars who is entrusted to divine and interpret the will of the War God that will guide the Legion to victory."
   components:
   - type: Sprite
     sprite: Corvax/Objects/Misc/identification.rsi
@@ -253,7 +253,7 @@
   parent: N14IDPassportBlank
   id: N14IDLegionaryMedalSilver2
   name: legion veteran legionnaire medallion
-  description: "This battered medallion marks you as property of the Legion, a servant that has proven their value to Caesar's army, worthy of respect among their peers."
+  description: "This battered medallion marks you as property of the Legion, a soldier that has proven their value to Caesar's army, worthy of respect among their peers."
   components:
   - type: Sprite
     sprite: Corvax/Objects/Misc/identification.rsi
@@ -272,7 +272,7 @@
   parent: N14IDPassportBlank
   id: N14IDLegionaryMedalVexillarius
   name: legion vexillarius medallion
-  description: "This shiny medallion marks you as property of the Legion, a servant who bears the standard of Caesar beyond death, inspiring your fellow warriors past mortal wounds to eternal glory."
+  description: "This shiny medallion marks you as property of the Legion, a soldier who has the honor of bearing the standard of the Legion, inspiring your fellow warriors past mortal wounds to eternal glory."
   components:
   - type: Sprite
     sprite: Corvax/Objects/Misc/identification.rsi
@@ -291,7 +291,7 @@
   parent: N14IDPassportBlank
   id: N14IDLegionaryMedalSilver3
   name: legion decanus medallion
-  description: "This medallion marks you as property of the Legion, a servant of Caesar who has earned the right of command, one who will have stories told of their exploits should they survive Caesar's many enemies."
+  description: "This medallion marks you as property of the Legion, a valued soldier of Caesar who has earned the right of command, one who will have stories told of their exploits should they survive Caesar's many enemies."
   components:
   - type: Sprite
     sprite: Corvax/Objects/Misc/identification.rsi
@@ -310,7 +310,7 @@
   parent: N14IDPassportBlank
   id: N14IDLegionaryMedalForgemaster
   name: legion forgemaster medallion
-  description: "This shiny medallion marks you as property of the Legion, a servant of Caesar who has earned command of the camp's logistics and ensuring the warriors are armed. You are an officer, one who merits respect should you still prove useful."
+  description: "This shiny medallion marks you as property of the Legion, a valued soldier of Caesar who has earned command of the camp's logistics and ensuring the warriors are armed. You are an officer, one who merits respect should you still prove useful."
   components:
   - type: Sprite
     sprite: Corvax/Objects/Misc/identification.rsi
@@ -348,7 +348,7 @@
   parent: N14IDPassportBlank
   id: N14IDLegionaryMedalOptio
   name: legion optio medallion
-  description: "This decorated medallion marks you as property of the Legion, a servant of Caesar who serves as the second in command and trusted advisor of the Centurion, the mentor you will one day replace. Aide them in diplomacy and matters of tactics."
+  description: "This decorated medallion marks you as property of the Legion, an exceptional soldier  who serves as the second in command and trusted advisor of the Centurion, the mentor you will one day replace. Aide them in diplomacy and matters of tactics."
   components:
   - type: Sprite
     sprite: Corvax/Objects/Misc/identification.rsi
@@ -367,7 +367,7 @@
   parent: N14IDPassportBlank
   id: N14IDLegionaryMedalFrumentarii
   name: legion frumentarii medallion
-  description: "This simple medallion marks you as property of the Legion, a servant of Caesar who has dedicated their lives to the most difficult and eternal of duties, to observe the enemy and sabotage them despite any personal risks involved."
+  description: "This simple medallion marks you as property of the Legion, a devoted spy of Caesar who has dedicated their lives to the most difficult and eternal of duties, to observe the enemy and sabotage them despite any personal risks involved."
   components:
   - type: Sprite
     sprite: Corvax/Objects/Misc/identification.rsi
@@ -386,7 +386,7 @@
   parent: N14IDPassportBlank
   id: N14IDLegionaryMedalPrimeDecanus
   name: legion prime decanus medallion
-  description: "This dull medallion marks you as property of the Legion, a servant of Caesar who has earned the right of command, one who has proven their worth beyond that of an eager gloryhound."
+  description: "This dull medallion marks you as property of the Legion, a valued soldier of Caesar who has earned the right of command, one who has proven their worth beyond that of an eager gloryhound."
   components:
   - type: Sprite
     sprite: Corvax/Objects/Misc/identification.rsi
@@ -405,7 +405,7 @@
   parent: N14IDPassportBlank
   id: N14IDLegionaryMedalVeteranDecanus
   name: legion veteran decanus medallion
-  description: "This battered medallion marks you as property of the Legion, a servant of Caesar who has earned the right of command, savage in combat and wise in tactics. Yours is a valuable mind and a steady swordarm in service of Caesar's will."
+  description: "This battered medallion marks you as property of the Legion, a valued soldier of Caesar who has earned the right of command, savage in combat and wise in tactics. Yours is a valuable mind and a steady swordarm in service of Caesar's will."
   components:
   - type: Sprite
     sprite: Corvax/Objects/Misc/identification.rsi
