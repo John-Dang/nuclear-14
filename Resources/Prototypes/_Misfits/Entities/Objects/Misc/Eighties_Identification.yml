@@ -9,8 +9,6 @@
     state: Eighties_Keyfob
   - type: PresetIdCard
     job: EightiesRoadRash
-  - type: StaticPrice
-    price: 30
 
 - type: entity
   parent: MisfitsEightiesIDCard
@@ -19,8 +17,6 @@
   components:
   - type: PresetIdCard
     job: EightiesCylinders
-  - type: StaticPrice
-    price: 200
 
 - type: entity
   parent: MisfitsEightiesIDCard
@@ -29,8 +25,6 @@
   components:
   - type: PresetIdCard
     job: EightiesPistons
-  - type: StaticPrice
-    price: 60
 
 - type: entity
   parent: MisfitsEightiesIDCard
@@ -39,8 +33,6 @@
   components:
   - type: PresetIdCard
     job: EightiesOilers
-  - type: StaticPrice
-    price: 120
 
 - type: entity
   parent: N14IDCard
@@ -53,5 +45,3 @@
     state: Eighties_Keyfob
   - type: PresetIdCard
     job: EightiesTheBlock
-  - type: StaticPrice
-    price: 500

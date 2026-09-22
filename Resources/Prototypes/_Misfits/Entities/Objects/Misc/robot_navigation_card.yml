@@ -36,8 +36,6 @@
   id: MisfitsRobotNavCardRobCo
   name: navigation module
   description: An integrated navigation and communications chip embedded in synthetic beings. Provides tactical map access and facilitates radio-frequency communications. Cannot be removed without specialized tools.
-- type: StaticPrice
-  price: 20
   categories: [ HideSpawnMenu ]
   components:
   - type: WastelandMap
@@ -53,8 +51,6 @@
   components:
   - type: PresetIdCard
     job: SyntheticProtectronTribal
-  - type: StaticPrice
-    price: 20
   - type: Tag
     tags:
     - IdCardTribe

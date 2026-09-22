@@ -302,7 +302,7 @@
   parent: N14IDBrotherhoodOfSteelHolotagBase
   id: N14IDBrotherhoodOfSteelHolotagHonorGuard
   name: honor guard's holotags
-  description: An ID holotag worn by an Honor Guard of the Brotherhood of Steel.
+  description: Your life has been sworn to the safety of the Elder who appointed you, and you will see their will done. For without them, the Brotherhood of Steel would fall.
   suffix: Honor Guard
   components:
   - type: PresetIdCard
